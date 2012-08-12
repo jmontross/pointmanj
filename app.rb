@@ -79,7 +79,7 @@ __END__
               <div class='page-header'>
                 <h1>
                   Projects and Jobs
-                  <small>I have worked with Ruby on Rails and related technologies since 2008. Below are some of the projects I'm proud of having been involved in during this time.</small>
+                  <small>I have worked with Ruby and Rails since 2008.</small>
                 </h1>
               </div>
               <div class='project'>
@@ -147,10 +147,12 @@ __END__
               <div class='project'>
                 <h2>Financial Literacy Foundation</h2>
                 <h3>Teaching financial literacy courses in Washington, DC and developing the web site.</h3>
-                <h4> 2007 -  2009</h4>
-                <p> Rails 1.2 app supporting student logins and assessments.  </p>
+                <h4> Spring 2008 -  Summer 2009</h4>
+                <p> I began as a volunteer and later became teacher, web developer, and curriculum curator </p>
                  <ul>
-                   <li> Taught at SEED School DC for one year.
+                   <li> Designed, promoted, and conducted workshops for teens and young adults.
+                   <li> Taught economics & financial literacy at SEED School DC for one year.</li>
+                   <li> Developed a rails 1.2 app with one other person to support assessments, attendance, and more. </li>
                  </ul>
                 <p>
                   <span class='label'>#rubyonrails</span>
@@ -165,7 +167,7 @@ __END__
             <div class='page-header'>
                 <h1>
                   Education
-                  <small>The roots of education are bitter, but the fruit is sweet. </small>
+                  <small>The roots are bitter, but the fruit is sweet. </small>
                 </h1>
 	            </div>            
             <div class='project'>
@@ -203,27 +205,33 @@ __END__
               </h1>
             </div>
             <div class='project'>
-              <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> - veteran designed traning</h3>
+              <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> </h3>
               <h4> Crossfit style training where all sales go to honorvet.org </h4>              
               <ul>
               <li> Time was donated </li>
               <li> Built in one day on August 4th, 2012. </li>
               <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
               </ul>
-	        </div>    
-	        <div class='project'>
-              <h3>iOS app - ACIM 365. </h3>
-              <h4>Daily lessons from A Course in Miracles</h4>              
-              <p> 
-                Yes, I'm attempting to profiteer from the spiritual self help business.  It's a good opportunity for my fist app and it's a work in progress. 
-              </p>                 
-	        </div>                        
+	        </div>    	        
             <div class='project'>
-              <h3>Sintatra and mongo app for mapping social servicess </h3>
+              <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
+              <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
               <p>
-              Worked with friend Colin Van Dyke to build <a href="thebridgeprojectdc.org"> The Bridge Project</a> in late 2010.  
+              Worked with friend Colin Van Dyke to build in late 2010.   
               </p>                     				                         
-	        </div>              
+	        </div>  
+	       <!--  <div class='project'>
+              <h3>Open Source Contributions</h3>
+              <h4>Pay it forward </h4>
+              <p>
+               I enjoy contributing to open sourece projects I am using and would like to improve.
+              </p>                     		
+              <ul>
+              <li>Veewee - building of baseboxes for use with systems configuration</li>
+              <li>Dansbeerlist - working with friend on a rails 3 app he created </li>
+              <li>check my github for latest</li>
+              </ul>		                         
+	        </div>  	    -->                 
           </div>
         </section>
       </div>
