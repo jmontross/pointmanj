@@ -47,9 +47,9 @@ __END__
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                      <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
+                     <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
-                      </a>
+                      </a> -->
                     </p>
                   </div>
                   <% if @awesome_instance_variables[:personal_site] %>
