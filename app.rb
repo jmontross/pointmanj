@@ -39,7 +39,7 @@ get '/resume.pdf' do
     @awesome_instance_variables[key.to_sym] = value
   end
   kit = PDFKit.new(erb :pdf)
-  kit.stylesheets << './public/stylesheets/style.css'
+  # kit.stylesheets << './public/stylesheets/style.css'
   # kit.to_pdf # inline PDF
   send_file kit.to_pdf, :filename => "Joshua_Montross_Resume.pdf"
 end
@@ -269,6 +269,8 @@ __END__
 
   <html>
    <head>
+   <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
+   <link href='/stylesheets/style.css' rel='stylesheet' />
    </head>
      <body style='padding-top: 200px'>
       <div class='navbar navbar-fixed-top'>
