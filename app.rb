@@ -78,7 +78,7 @@ __END__
             <div class='span7'>
               <div class='page-header'>
                 <h1>
-                  Project
+                  Projects and Jobs
                   <small>I have worked with Ruby on Rails and related technologies since 2008. Below are some of the projects I'm proud of having been involved in during this time.</small>
                 </h1>
               </div>
@@ -160,63 +160,70 @@ __END__
                 </p>
               </div>                     
             </div>
+
             <div class='span5'>
             <div class='page-header'>
+                <h1>
+                  Education
+                  <small>The roots of education are bitter, but the fruit is sweet. </small>
+                </h1>
+	            </div>            
+            <div class='project'>
+              <h3>BBA, Finance and Information Systems Concentrations</h3>
+              <h4>2004-2008 George Washington University</h4>              
+            </div>
+            <div class='project'>
+              <h3>MS, Information Systems Design</h3>
+              <h4>2008-2009 George Washington University</h4>              
+            </div>  
+            <div class='project'>
                 <h1>
                   Conferences
                   <small>One reason I love working with Ruby/Rails is the diverse and helpful developer community</small>
                 </h1>
-              </div>
-              <p>I've attended the following conferences:</p>
+            </div>
+            <p>I've attended the following conferences:</p>
+            <ul>
+              <li>RubyConf 2009</li>
+              <li>RubyConf 2010</li>
+              <li>Dreamforce 2010</li>
+              <li>JSConf 2009</li>
+              <li>JSConf 2010</li>
+              <li>CanvasCon 2011</li>
+              <li>
+                RailsConf 2008 (presented lightening talk on restful_workflow)
+              </li>
+              <li>RailsConf 2007</li>
+            </ul>
+     
+            <div class='project'>
+              <h1>
+                Side projects
+                <small>Keep learning on the side</small>
+              </h1>
+            </div>
+            <div class='project'>
+              <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> - veteran designed traning</h3>
+              <h4> Crossfit style training where all sales go to honorvet.org </h4>              
               <ul>
-                <li>RubyConf 2009</li>
-                <li>RubyConf 2010</li>
-                <li>Dreamforce 2010</li>
-                <li>JSConf 2009</li>
-                <li>JSConf 2010</li>
-                <li>CanvasCon 2011</li>
-                <li>
-                  RailsConf 2008 (presented lightening talk on restful_workflow)
-                </li>
-                <li>RailsConf 2007</li>
+              <li> Time was donated </li>
+              <li> Built in one day on August 4th, 2012. </li>
+              <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
               </ul>
-              <div class='page-header'>
-                <h1>
-                  Education
-                  <small>The most useful thing I learned in school was SQL and business process engineering... the coding came after  </small>
-                </h1>
-              </div>
-              <div class='project'>
-                <h3>BBA, Finance and Information Systems Concentrations</h3>
-                <h4>2004-2008 George Washington University</h4>              
-              </div>
-              <div class='project'>
-                <h3>MS, Information Systems Design</h3>
-                <h4>2008-2009 George Washington University</h4>              
-              </div>  
-              <div class='page-header'>
-                <h1>
-                  Side projects
-                  <small>Keep learning on the side</small>
-                </h1>
-              </div>
-              <div class='project'>
-                <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> - veteran designed traning</h3>
-                <h4>Wordpress site for friend's fundraising not for profit.  Built in one day on August 4th, 2012. </h4>              
-	          </div>    
-	          <div class='project'>
-                <h3>iOS app - ACIM 365. </h3>
-                <h4>Daily lessons from A Course in Miracles</h4>              
-                <p> 
-                  Yes, I'm attempting to profiteer from the spiritual self help business.  It's a good opportunity for my fist app and it's a work in progress. 
-                </p>                 
-	          </div>                        
-              <div class='project'>
-                <h3>Sintatra and mongo app for mapping social servicess </h3>
-                <p>
-                Worked with friend Colin Van Dyke to build <a href="thebridgeprojectdc.org"> The Bridge Project</a> in late 2010.  
-                </p>                     				                         
-	          </div>              
+	        </div>    
+	        <div class='project'>
+              <h3>iOS app - ACIM 365. </h3>
+              <h4>Daily lessons from A Course in Miracles</h4>              
+              <p> 
+                Yes, I'm attempting to profiteer from the spiritual self help business.  It's a good opportunity for my fist app and it's a work in progress. 
+              </p>                 
+	        </div>                        
+            <div class='project'>
+              <h3>Sintatra and mongo app for mapping social servicess </h3>
+              <p>
+              Worked with friend Colin Van Dyke to build <a href="thebridgeprojectdc.org"> The Bridge Project</a> in late 2010.  
+              </p>                     				                         
+	        </div>              
           </div>
         </section>
       </div>
