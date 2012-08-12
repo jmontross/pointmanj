@@ -10,7 +10,8 @@ get '/' do
     :email => nil,
     :working_with_rails => nil,
     :personal_image => nil,
-    :personal_site => nil
+    :personal_site => nil,
+    :hire_availability => nil
   }	
   YAML.load_file('config/personal_settings.yml').each do |key,value|
     @awesome_instance_variables[key.to_sym] = value
