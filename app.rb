@@ -39,7 +39,7 @@ get '/resume.pdf' do
     @awesome_instance_variables[key.to_sym] = value
   end
   kit = PDFKit.new(erb :pdf)
-  kit.stylesheets << '/stylesheets/style.css'
+  kit.stylesheets << './public/stylesheets/style.css'
   # kit.to_pdf # inline PDF
   kit.to_pdf
 end
