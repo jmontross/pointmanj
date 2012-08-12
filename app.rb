@@ -71,7 +71,22 @@ get '/' do
                   Realized need for and developed vagrant and chef-solo strategy for minimizing setup time for new engineers to get working on the code.
                 </li>
                 <li>
-                  
+                  Mentored multiple fellow employees in engineering and analytics on ruby and rails.  
+                </li>
+                </ul>
+              </div>
+              <div class='project'>
+              <h2>Devbootcamp.com</h2>
+                <h3>Mentor</h3>
+                <h4>June, 2012 - Current</h4>
+                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to world class beginner.  
+                The course is renowned for good content and providing students with the necessary skills to land their first engineering job. </p>
+                <ul>
+                <li>
+                  Mentoring two proteges learning to become ruby on rails developers.
+                </li>
+                <li>
+                  Provided assistance in understanding concepts.   Pair programmed with them and taught some basic unix.  
                 </li>
                 </ul>
               </div>
