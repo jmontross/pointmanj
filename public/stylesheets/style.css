@@ -4,3 +4,28 @@
   font-weight: 400;
   src: local('Ledger'), local('Ledger-Regular'), url(http://themes.googleusercontent.com/static/fonts/ledger/v1/ffJAlki6zTQGsPxbI7M04uvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
+
+.project {
+  margin-bottom: 20px;
+}
+a.linkedin {
+  background: url(/images/social/linkedin.png) no-repeat;
+  height: 32px;
+  padding-left: 30px;
+  float:left;
+  display:block;
+}
+a.github {
+  background: url(/images/social/github.png) no-repeat;
+  height: 32px;
+  padding-left: 30px;
+  float:left;
+  display:block;
+}
+a.twitter {
+  background: url(/images/social/twitter.png) no-repeat;
+  height: 32px;
+  padding-left: 30px;
+  float:left;
+  display:block;
+}
