@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'yaml'
+require 'wkhtmltopdf-heroku'
 require 'pdfkit'
 
 get '/' do
