@@ -16,3 +16,4 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra
+  wkhtmltopdf-heroku (= 1.0.0)
