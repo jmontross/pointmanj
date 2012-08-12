@@ -1,0 +1,11 @@
+README
+
+  This is hosted on heroku. 
+
+  I followed the steps here https://devcenter.heroku.com/articles/rack
+
+  I setup my heroku using these steps https://devcenter.heroku.com/articles/keys
+
+  what next?  maybe move personalized info into a yaml file so the image info, twitter, github, and linked in are pulled from yaml and I use erb to parse.  Right now sinatra is a bit overkill since there is no data processing. 
+
+  
