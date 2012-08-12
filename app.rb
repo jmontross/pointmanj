@@ -196,7 +196,7 @@ __END__
                 </h1>
 	            </div>            
             <div class='project'>
-              <h3>BBA, Finance and Information Systems Concentrations</h3>
+              <h3>BBA, Finance and Information Systems</h3>
               <h4>2004-2008 George Washington University</h4>              
             </div>
             <div class='project'>
