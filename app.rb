@@ -25,7 +25,7 @@ get '/' do
                     </a>
                   </p>
                 </div>
-                <img src='/public/images/josh_up_redwoods.jpg' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
+                <img src='/images/josh_up_redwoods.jpg' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
                 <h1 style='color: rgb(255,255,255)'>Joshua Montross</h1>
                 <h2 style='color: rgb(220,220,220)'>Ruby on Rails Developer</h2>
                 <h3 style='color: rgb(240,240,240)'>Currently unavailable for hire</h3>
