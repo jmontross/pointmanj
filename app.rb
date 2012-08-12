@@ -4,7 +4,7 @@ get '/' do
   "<html>
   <head>
   	
-      <!-- <script src='/javascripts/bootstrap.js'></script> -->
+      <script src='/javascripts/bootstrap.js'></script>
       <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
       <link href='/stylesheets/style.css' rel='stylesheet' />
       <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
@@ -26,7 +26,7 @@ get '/' do
                       <a class='github' href='https://github.com/jmontross'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                      <a href='http://workingwithrails.com/person/<%=working_with_rails_id %>'>
+                      <a href='http://workingwithrails.com/person/'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a>
                     </p>
@@ -60,6 +60,20 @@ get '/' do
                 <h3>Software Engineer</h3>
                 <h4>October, 2012 - Current</h4>
                 <p>Empowering students to learn useful skills from a university using great technology.  I am the lead developer on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
+                <ul>
+                <li>
+                  Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
+                </li>
+                <li>
+                  Configuration management using chef and amazon web services to scale with grace.  
+                </li>
+                <li>
+                  Realized need for and developed vagrant and chef-solo strategy for minimizing setup time for new engineers to get working on the code.
+                </li>
+                <li>
+                  
+                </li>
+                </ul>
               </div>
               <div class='project'>
                 <h2>Demosphere.com</h2>
@@ -70,7 +84,7 @@ get '/' do
                 </p>
                 <ul>
                   <li>Developed multiple sinatra applicatons.</li>                
-                  <li>Standalone CLI ruby applications</li>             
+                  <li>Standalone CLI ruby applications for running our unique infrastructure</li>             
                   <li>Employed a variety of very helpful Ruby Gems as well as wrote own when there were none to fit the need</li>
                   <li>Learned legacy templating language and used along with firebird for supporting the past</li>
                 </ul>
