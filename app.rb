@@ -41,7 +41,7 @@ get '/resume.pdf' do
   kit = PDFKit.new(erb :pdf)
   kit.stylesheets << './public/stylesheets/style.css'
   # kit.to_pdf # inline PDF
-  kit.to_pdf
+  send_data kit.to_pdf, :file_name => "Joshua_Montross_Resume.pdf"
 end
 
 __END__
@@ -72,6 +72,7 @@ __END__
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
+                      <a href="/resume.pdf"> Print as pdf</a>
                      <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a> -->
