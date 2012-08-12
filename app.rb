@@ -3,8 +3,14 @@ require 'sinatra'
 get '/' do
   response = %w{<html>
 <head>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	
+    <script src='/javascripts/bootstrap.js'></script>
+    <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
+    <link href='/stylesheets/style.css' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css' />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   </head>
    <body style='padding-top: 200px'>
     <div class='navbar navbar-fixed-top'>
@@ -60,7 +66,7 @@ get '/' do
               <h3>Web developer providing premium sports league and organization software as a service.</h3>
               <h4>July 2009 - September 2011</h4>
               <p>
-             , , and 
+             	Made awesome applications empowering coaches, players, and parents to easily manage the soccer and sports lifestyle.
               </p>
               ul>
                 <li>Developed multiple sinatra applicatons.</li>                
