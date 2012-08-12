@@ -1,8 +1,29 @@
 require 'sinatra'
+require 'yaml'
 
 get '/' do
-  "<html>
-  <head>
+  @awesome_instance_variables = {
+  	:name => nil,
+    :twitter => nil,
+    :linkedin => nil,
+    :github => nil,
+    :email => nil,
+    :working_with_rails => nil,
+    :personal_image => nil,
+    :personal_site => nil
+  }	
+  YAML.load_file('config/personal_settings.yml').each do |key,value|
+    @awesome_instance_variables[key.to_sym] = value
+  end
+
+  erb :resume
+end
+
+__END__
+
+@@ resume
+  <html>
+   <head>
   	
       <script src='/javascripts/bootstrap.js'></script>
       <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
@@ -21,22 +42,28 @@ get '/' do
                 <header class='jumbotron subhead' id='overview' style='margin-left:-20px; margin-right:-20px; margin-bottom:0px; padding: 20px; padding-bottom:30px; border-radius: 0px 0px 15px 15px;'>
                   <div style='float:right'>
                     <p>
-                      <a class='twitter' href='http://twitter.com/#!/jdmontross'></a>
-                      <a class='linkedin' href='http://www.linkedin.com/in/joshuamontross'></a>
-                      <a class='github' href='https://github.com/jmontross'></a>
+                      <a class='twitter' href='http://twitter.com/#!/<%= @awesome_instance_variables[:twitter] %>'></a>
+                      <a class='linkedin' href='http://www.linkedin.com/in/<%= @awesome_instance_variables[:linkedin] %>'></a>
+                      <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                      <a href='http://workingwithrails.com/person/'>
+                      <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a>
                     </p>
                   </div>
-                  <img src='/images/josh_up_redwoods.jpg' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
-                  <h1 style='color: rgb(255,255,255)'>Joshua Montross</h1>
-                  <h2 style='color: rgb(220,220,220)'>Ruby on Rails Developer</h2>
-                  <h3 style='color: rgb(240,240,240)'>Currently unavailable for hire</h3>
+                  <% if @awesome_instance_variables[:personal_site] %>
+                  	<a href="<%= @awesome_instance_variables[:personal_site]%>"> 
+                  <% end %>
+                  <img src='<%= @awesome_instance_variables[:personal_image] %>' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
+                  <% if @awesome_instance_variables[:personal_site] %>
+                  	</a>
+                  <% end %>
+                  <h1 style='color: rgb(255,255,255)'><%= @awesome_instance_variables[:name] %></h1>
+                  <h2 style='color: rgb(220,220,220)'><%= @awesome_instance_variables[:job_title] %></h2>
+                  <h3 style='color: rgb(240,240,240)'>Currently <%= @awesome_instance_variables[:hire_availability] %> for hire</h3>
                   <h4>
-                    <a href='mailto:joshua.montross@gmail.com'>joshua.montross@gmail.com</a>
+                    <a href='mailto:<%= @awesome_instance_variables[:email] %>'><%= @awesome_instance_variables[:email] %></a>
                   </h4>
                 </header>
                 <div class='clear' style='clear:both'></div>
@@ -68,10 +95,10 @@ get '/' do
                   Configuration management using chef and amazon web services to scale with grace.  
                 </li>
                 <li>
-                  Realized need for and developed vagrant and chef-solo strategy for minimizing setup time for new engineers to get working on the code.
+                  Realized need for better local set up process; developed vagrant and chef-solo strategy for minimizing setup time across multiple services.
                 </li>
                 <li>
-                  Mentored multiple fellow employees in engineering and analytics on ruby and rails.  
+                  Mentored multiple fellow employees in engineering and business intelligence on using ruby for scripts to work more effectively with web services.  
                 </li>
                 </ul>
               </div>
@@ -86,7 +113,10 @@ get '/' do
                   Mentoring two proteges learning to become ruby on rails developers.
                 </li>
                 <li>
-                  Provided assistance in understanding concepts.   Pair programmed with them and taught some basic unix.  
+                  Provided assistance in understanding datatypes, duck-typing, and other core features of Ruby.
+                </li>
+                <li>
+   				  Pair programmed, showed how to write unit tests, and taught basic unix 101 with apache and sys5init.  
                 </li>
                 </ul>
               </div>
@@ -163,10 +193,33 @@ get '/' do
               <div class='project'>
                 <h3>MS, Information Systems Design</h3>
                 <h4>2008-2009 George Washington University</h4>              
-              </div>             
+              </div>  
+              <div class='page-header'>
+                <h1>
+                  Side projects
+                  <small>Keep learning on the side</small>
+                </h1>
+              </div>
+              <div class='project'>
+                <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> - veteran designed traning</h3>
+                <h4>Wordpress site for friend's fundraising not for profit.  Built in one day on August 4th, 2012. </h4>              
+	          </div>    
+	          <div class='project'>
+                <h3>iOS app - ACIM 365. </h3>
+                <h4>Daily lessons from A Course in Miracles</h4>              
+                <p> 
+                  Yes, I'm attempting to profiteer from the spiritual self help business.  It's a good opportunity for my fist app and it's a work in progress. 
+                </p>                 
+	          </div>                        
+              <div class='project'>
+                <h3>Sintatra and mongo app for mapping social servicess </h3>
+                <p>
+                Worked with friend Colin Van Dyke to build <a href="thebridgeprojectdc.org"> The Bridge Project</a> in late 2010.  
+                </p>                     				                         
+	          </div>              
           </div>
         </section>
       </div>
     </body>
-    </html>"
-end
+    </html>
+
