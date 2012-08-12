@@ -38,8 +38,8 @@ get '/resume.pdf' do
   YAML.load_file('config/personal_settings.yml').each do |key,value|
     @awesome_instance_variables[key.to_sym] = value
   end
-  kit = PDFKit.new(erb :resume)
-  kit.stylesheets << '/path/to/pdf.css'
+  kit = PDFKit.new(erb :pdf)
+  kit.stylesheets << '/stylesheets/style.css'
   # kit.to_pdf # inline PDF
   kit.to_pdf
 end
@@ -206,7 +206,7 @@ __END__
             <div class='project'>
                 <h1>
                   Conferences
-                  <small>One reason I love working with Ruby/Rails is the diverse and helpful developer community</small>
+                  <small>They are more than fun.</small>
                 </h1>
             </div>
             <p>I've attended the following conferences:</p>
