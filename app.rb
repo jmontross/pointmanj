@@ -124,7 +124,7 @@ __END__
                   Realized need for better local set up process; developed vagrant and chef-solo strategy for minimizing setup time across multiple services.
                 </li>
                 <li>
-                  Mentored multiple fellow employees in engineering and business intelligence on using ruby for scripts to work more effectively with web services.  
+                  Introduced fellow employees in engineering and business intelligence to the use of ruby scripting to work more effectively with web services and eliminate repetitive tasks.  
                 </li>
                 </ul>
               </div>
