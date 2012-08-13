@@ -40,10 +40,11 @@ get '/resume.pdf' do
   end
   kit = PDFKit.new(erb :pdf)
   # kit.stylesheets << './public/stylesheets/style.css'
-  # f = File.new('./tmp/Joshua_Montross_Resume.pdf','w+').write(kit.to_pdf) # inline PDF
-  # f.save
-  # send_file './tmp/Joshua_Montross_Resume.pdf', :filename => "Joshua_Montross_Resume.pdf"
-  kit.to_pdf
+  # kit.to_pdf
+  # above works but looks crappy
+  kit.to_file './tmp/Joshua_Montross_Resume.pdf'
+  send_file './tmp/Joshua_Montross_Resume.pdf', :filename => "Joshua_Montross_Resume.pdf"
+  
 end
 
 __END__
