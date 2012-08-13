@@ -8,4 +8,18 @@ README
 
   what next?  maybe move personalized info into a yaml file so the image info, twitter, github, and linked in are pulled from yaml and I use erb to parse.  Right now sinatra is a bit overkill since there is no data processing. 
 
-  
+  Done with the personalizing... 
+  modify config with your values 
+
+name : Joshua Montross
+twitter : jdmontross
+linkedin : joshuamontross
+github : jmontross
+email : joshua.montross@gmail.com
+working_with_rails : nil
+personal_image : /images/josh_up_redwoods.jpg
+personal_site : http://www.joshuamontross.com
+job_title: Ruby on Rails Engineer
+hire_availability : unavailable
+
+  Added in some generation of the resume as a pdf.  Perhaps need to look into moving these to a views folder as there are now two views.  Also need separate style sheet for PDF.  It doesn't look as good. 

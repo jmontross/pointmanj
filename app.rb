@@ -82,9 +82,11 @@ __END__
                       <a href="/resume.pdf" target="new"> Resume as pdf </a>                    
                       <br style='clear:both' />                      
                         <small> I get to the point. You can count on me in a pinch. <br style='clear:both' /> ~j  </small>
-                     <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
+                       <% if @awesome_instance_variables[:working_with_rails] %>
+                       <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
-                      </a> -->
+                      </a>
+                      <% end %>
                     </p>
                   </div>
                   <% if @awesome_instance_variables[:personal_site] %>
