@@ -74,7 +74,7 @@ __END__
                     <p>
                       <a class='twitter' href='http://twitter.com/#!/<%= @awesome_instance_variables[:twitter] %>'></a>
                       <a class='linkedin' href='http://www.linkedin.com/in/<%= @awesome_instance_variables[:linkedin] %>'></a>
-                      <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
+                      <a class='github' href='https://github.com/<%= @awesome_instance_variables[:github] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
                     
