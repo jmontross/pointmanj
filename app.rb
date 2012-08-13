@@ -40,7 +40,7 @@ get '/resume.pdf' do
   end
   kit = PDFKit.new(erb :pdf)
   puts "Dir.entries '.' #{Dir.entries('.').inspect}"
-  kit.stylesheets << './public/stylesheets/style.css'
+  # kit.stylesheets << './public/stylesheets/style.css'
   kit.stylesheets << './public/stylesheets/bootstrap.min.css'
   # kit.to_pdf
   # above works but looks crappy..
