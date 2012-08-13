@@ -39,8 +39,9 @@ get '/resume.pdf' do
     @awesome_instance_variables[key.to_sym] = value
   end
   kit = PDFKit.new(erb :pdf)
-  kit.stylesheets << '/stylesheets/style.css'
-  kit.stylesheets << '/stylesheets/bootstrap.min.css'
+  puts "Dir.entries '.' #{Dir.entries('.').inspect}"
+  kit.stylesheets << './public/stylesheets/style.css'
+  kit.stylesheets << './public/stylesheets/bootstrap.min.css'
   # kit.to_pdf
   # above works but looks crappy..
   kit.to_file '/tmp/Joshua_Montross_Resume.pdf'
