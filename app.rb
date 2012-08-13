@@ -77,7 +77,11 @@ __END__
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                      <a href="/resume.pdf" target="new"> Download pdf </a>
+                    
+                      <br style='clear:both' />                      
+                      <a href="/resume.pdf" target="new"> Resume as pdf </a>                    
+                      <br style='clear:both' />                      
+                        <small> I get to the point. You can count on me in a pinch. <br style='clear:both' /> ~j  </small>
                      <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a> -->
@@ -242,14 +246,18 @@ __END__
               <li> Time was donated </li>
               <li> Built in one day on August 4th, 2012. </li>
               <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
-              </ul>
+              </ul>              
+              <span class='label'>#wordpress</span>
 	        </div>    	        
             <div class='project'>
               <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
               <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
               <p>
               Worked with friend Colin Van Dyke to build in late 2010.   
-              </p>                     				                         
+              </p>     
+              <span class='label'>#jquery</span>
+              <span class='label'>#mongo</span>
+              <span class='label'>#nginx</span>                   				                         
 	        </div>  
 	       <!--  <div class='project'>
               <h3>Open Source Contributions</h3>
@@ -278,44 +286,6 @@ __END__
    <link href='/stylesheets/style.css' rel='stylesheet' />
    </head>
      <body style='padding-top: 200px'>
-      <div class='navbar navbar-fixed-top'>
-        <div class='navbar-inner'>
-          <div class='container'>
-            <div class='row'>
-              <!-- <div class='span12'> -->
-<!--                 <header class='jumbotron subhead' id='overview' style='margin-left:-20px; margin-right:-20px; margin-bottom:0px; padding: 20px; padding-bottom:30px; border-radius: 0px 0px 15px 15px;'>
-                  <div style='float:right'>
-                    <p>
-                      <a class='twitter' href='http://twitter.com/#!/<%= @awesome_instance_variables[:twitter] %>'></a>
-                      <a class='linkedin' href='http://www.linkedin.com/in/<%= @awesome_instance_variables[:linkedin] %>'></a>
-                      <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
-                      <br style='clear:both' />
-                      <br style='clear:both' />
-                     <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
-                        <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
-                      </a> -->
-                    </p>
-                  <!-- </div> -->
-                  <% if @awesome_instance_variables[:personal_site] %>
-                  	<a href="<%= @awesome_instance_variables[:personal_site]%>"> 
-                  <% end %>
-                  <img src='<%= @awesome_instance_variables[:personal_image] %>' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
-                  <% if @awesome_instance_variables[:personal_site] %>
-                  	</a>
-                  <% end %>
-                  <h1 style='color: rgb(255,255,255)'><%= @awesome_instance_variables[:name] %></h1>
-                  <h2 style='color: rgb(220,220,220)'><%= @awesome_instance_variables[:job_title] %></h2>
-                  <h3 style='color: rgb(240,240,240)'>Currently <%= @awesome_instance_variables[:hire_availability] %> for hire</h3>
-                  <h4>
-                    <a href='mailto:<%= @awesome_instance_variables[:email] %>'><%= @awesome_instance_variables[:email] %></a>
-                  </h4>
-                </header> -->
-                <div class='clear' style='clear:both'></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class='container'>
         <section id='projects'>
           <div class='row'>
@@ -388,95 +358,7 @@ __END__
                   <span class='label'>#agile</span>
                 </p>
               </div>
-              <div class='project'>
-                <h2>Financial Literacy Foundation</h2>
-                <h3>Teaching financial literacy courses in Washington, DC and developing the web site.</h3>
-                <h4> Spring 2008 -  Summer 2009</h4>
-                <p> I began as a volunteer and later became teacher, web developer, and curriculum curator </p>
-                 <ul>
-                   <li> Designed, promoted, and conducted workshops for teens and young adults.
-                   <li> Taught economics & financial literacy at SEED School DC for one year.</li>
-                   <li> Developed a rails 1.2 app with one other person to support assessments, attendance, and more. </li>
-                 </ul>
-                <p>
-                  <span class='label'>#rubyonrails</span>
-                  <span class='label'>#javascript</span>
-                  <span class='label'>#prototype</span>        
-                  <span class='label'>#agile</span>
-                </p>
-              </div>                     
             </div>
-
-            <div class='span5'>
-            <div class='page-header'>
-                <h1>
-                  Education
-                  <small>The roots are bitter, but the fruit is sweet. </small>
-                </h1>
-	            </div>            
-            <div class='project'>
-              <h3>BBA, Finance and Information Systems Concentrations</h3>
-              <h4>2004-2008 George Washington University</h4>              
-            </div>
-            <div class='project'>
-              <h3>MS, Information Systems Design</h3>
-              <h4>2008-2009 George Washington University</h4>              
-            </div>  
-            <div class='project'>
-                <h1>
-                  Conferences
-                  <small>One reason I love working with Ruby/Rails is the diverse and helpful developer community</small>
-                </h1>
-            </div>
-            <p>I've attended the following conferences:</p>
-            <ul>
-              <li>RubyConf 2009</li>
-              <li>RubyConf 2010</li>
-              <li>Dreamforce 2010</li>
-              <li>JSConf 2009</li>
-              <li>JSConf 2010</li>
-              <li>CanvasCon 2011</li>
-              <li>
-                RailsConf 2008 (presented lightening talk on restful_workflow)
-              </li>
-              <li>RailsConf 2007</li>
-            </ul>
-     
-            <div class='project'>
-              <h1>
-                Side projects
-                <small>Keep learning on the side</small>
-              </h1>
-            </div>
-            <div class='project'>
-              <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> </h3>
-              <h4> Crossfit style training where all sales go to honorvet.org </h4>              
-              <ul>
-              <li> Time was donated </li>
-              <li> Built in one day on August 4th, 2012. </li>
-              <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
-              </ul>
-	        </div>    	        
-          <div class='project'>
-              <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
-              <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
-              <p>
-              Worked with friend Colin Van Dyke to build in late 2010.   
-              </p>                     				                         
-	        </div>    
-           <div class='project'>
-              <h3>Open Source Contributions</h3>
-              <p>
-              Made a few open source contributions so others might benefit
-              </p>                                                     
-              <ul>
-              <li>
-              Veewee - ease development with virtual machines that closely resemble production environment
-              </li>
-              <li>
-              The site you are looking at now - pdf generation of resume on heroku.  Built in an afternoon.  
-              </li>
-          </div>            
           </div>
         </section>
       </div>
