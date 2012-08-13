@@ -39,7 +39,8 @@ get '/resume.pdf' do
     @awesome_instance_variables[key.to_sym] = value
   end
   kit = PDFKit.new(erb :pdf)
-  # kit.stylesheets << './public/stylesheets/style.css'
+  kit.stylesheets << '/stylesheets/style.css'
+  kit.stylesheets << '/stylesheets/bootstrap.min.css'
   # kit.to_pdf
   # above works but looks crappy..
   kit.to_file '/tmp/Joshua_Montross_Resume.pdf'
@@ -280,8 +281,8 @@ __END__
         <div class='navbar-inner'>
           <div class='container'>
             <div class='row'>
-              <div class='span12'>
-                <header class='jumbotron subhead' id='overview' style='margin-left:-20px; margin-right:-20px; margin-bottom:0px; padding: 20px; padding-bottom:30px; border-radius: 0px 0px 15px 15px;'>
+              <!-- <div class='span12'> -->
+<!--                 <header class='jumbotron subhead' id='overview' style='margin-left:-20px; margin-right:-20px; margin-bottom:0px; padding: 20px; padding-bottom:30px; border-radius: 0px 0px 15px 15px;'>
                   <div style='float:right'>
                     <p>
                       <a class='twitter' href='http://twitter.com/#!/<%= @awesome_instance_variables[:twitter] %>'></a>
@@ -293,7 +294,7 @@ __END__
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a> -->
                     </p>
-                  </div>
+                  <!-- </div> -->
                   <% if @awesome_instance_variables[:personal_site] %>
                   	<a href="<%= @awesome_instance_variables[:personal_site]%>"> 
                   <% end %>
@@ -307,7 +308,7 @@ __END__
                   <h4>
                     <a href='mailto:<%= @awesome_instance_variables[:email] %>'><%= @awesome_instance_variables[:email] %></a>
                   </h4>
-                </header>
+                </header> -->
                 <div class='clear' style='clear:both'></div>
               </div>
             </div>
