@@ -259,6 +259,18 @@ __END__
               <span class='label'>#mongo</span>
               <span class='label'>#nginx</span>                   				                         
 	        </div>  
+          <div class='project'>
+              <h3><a href="thebridgeprojectdc.org"> pointmanj.com </a> </h3>
+              <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
+              <p>
+              Built in an afternoon for the purpose of having an online resume presence.  Wanted some extra pizazz so I hacked together the resume pdf generation.
+              It is open source and available for fork and customization on <a href="http://www.github.com/jmontross/pointmanj"> my github page.</a>
+              </p>     
+
+              <span class='label'>#jquery</span>
+              <span class='label'>#mongo</span>
+              <span class='label'>#nginx</span>                                                    
+          </div>
 	       <!--  <div class='project'>
               <h3>Open Source Contributions</h3>
               <h4>Pay it forward </h4>
