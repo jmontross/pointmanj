@@ -77,7 +77,7 @@ __END__
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                      <!-- <a href="/resume.pdf"> Print as pdf</a> -->
+                      <a href="/resume.pdf" target="new"> Download pdf </a>
                      <!--  <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
                       </a> -->
@@ -457,13 +457,26 @@ __END__
               <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
               </ul>
 	        </div>    	        
-            <div class='project'>
+          <div class='project'>
               <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
               <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
               <p>
               Worked with friend Colin Van Dyke to build in late 2010.   
               </p>                     				                         
-	        </div>            
+	        </div>    
+           <div class='project'>
+              <h3>Open Source Contributions</h3>
+              <p>
+              Made a few open source contributions so others might benefit
+              </p>                                                     
+              <ul>
+              <li>
+              Veewee - ease development with virtual machines that closely resemble production environment
+              </li>
+              <li>
+              The site you are looking at now - pdf generation of resume on heroku.  Built in an afternoon.  
+              </li>
+          </div>            
           </div>
         </section>
       </div>
