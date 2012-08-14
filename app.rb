@@ -122,8 +122,8 @@ __END__
               <div class='project'>
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
-                <h4>October, 2012 - Current</h4>
-                <p>Empowering students to learn useful skills from a university using great technology.  I am the lead developer on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
+                <h4>October, 2011 - Current</h4>
+                <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
@@ -143,17 +143,17 @@ __END__
               <h2>Devbootcamp.com</h2>
                 <h3>Mentor</h3>
                 <h4>June, 2012 - Current</h4>
-                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to world class beginner.  
-                The course is renowned for good content and providing students with the necessary skills to land their first engineering job. </p>
+                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to "world class beginner".  
+                </p>
                 <ul>
                 <li>
-                  Mentoring two proteges learning to become ruby on rails developers.
+                  Mentored two proteges learning to become ruby on rails developers for the summer cohort.
                 </li>
                 <li>
                   Provided assistance in understanding datatypes, duck-typing, and other core features of Ruby.
                 </li>
                 <li>
-   				  Pair programmed, showed how to write unit tests, and taught basic unix 101 with apache and sys5init.  
+   				        Pair programmed, showed how to write unit tests, and taught basic unix 101 with apache and sys5init.  
                 </li>
                 </ul>
               </div>
@@ -162,22 +162,21 @@ __END__
                 <h3>Web developer providing premium sports league and organization software as a service.</h3>
                 <h4>July 2009 - September 2011</h4>
                 <p>
-               	Made awesome applications empowering coaches, players, and parents to easily manage the soccer and sports lifestyle.
+               	Made awesome applications empowering coaches, players, and parents to easily manage the soccer and sports organizations.
                 </p>
                 <ul>
-                  <li>Developed multiple sinatra applicatons.</li>                
-                  <li>Standalone CLI ruby applications for running our unique infrastructure</li>             
-                  <li>Employed a variety of very helpful Ruby Gems as well as wrote own when there were none to fit the need</li>
-                  <li>Learned legacy templating language and used along with firebird for supporting the past</li>
+                  <li>Developed ruby (mostly sinatra) applicatons for paypal interaction, transaction repair automation, self-healing systems, and more.</li>                
+                  <li>Learned legacy templating language along with html and javascript for web design.  </li>
+                  <li>Favored use of javascript building html on front end with fast queries on backend outputting json.  </li>
                 </ul>
                 <p>
                   <span class='label'>#rubyonrails</span>
                   <span class='label'>#javascript</span>
                   <span class='label'>#jquery</span>
-                  <span class='label'>#coffeescript</span>
-                  <span class='label'>#datatables</span>
-                  <span class='label'>#sqlserver</span>
-                  <span class='label'>#extjs</span>
+                  <span class='label'>#firebird</span>
+                  <span class='label'>#mongo</span>
+                  <span class='label'>#redis</span>
+                  <span class='label'>#quickbooks</span>
                   <span class='label'>#agile</span>
                 </p>
               </div>
@@ -314,7 +313,7 @@ __END__
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
                 <h4>October, 2012 - Current</h4>
-                <p>Empowering students to learn useful skills from a university using great technology.  I am the lead developer on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
+                <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
@@ -353,7 +352,7 @@ __END__
                 <h3>Web developer providing premium sports league and organization software as a service.</h3>
                 <h4>July 2009 - September 2011</h4>
                 <p>
-               	Made awesome applications empowering coaches, players, and parents to easily manage the soccer and sports lifestyle.
+               	Made awesome applications empowering coaches, players, and parents to easily manage their sports organizations.
                 </p>
                 <ul>
                   <li>Developed multiple sinatra applicatons.</li>                

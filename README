@@ -23,3 +23,5 @@ job_title: Ruby on Rails Engineer
 hire_availability : unavailable
 
   Added in some generation of the resume as a pdf.  Perhaps need to look into moving these to a views folder as there are now two views.  Also need separate style sheet for PDF.  It doesn't look as good. 
+
+  This was super helpful - http://thinkrelevance.com/blog/2010/06/15/rethinking-pdf-creation-in-ruby
