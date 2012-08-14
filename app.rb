@@ -44,6 +44,7 @@ get '/resume.pdf' do
   kit.stylesheets << './public/stylesheets/bootstrap.min.css'
   # kit.to_pdf
   # above works but looks crappy..
+  # TODO : Only geneate a new resume if something changed.
   kit.to_file '/tmp/Joshua_Montross_Resume.pdf'
   send_file '/tmp/Joshua_Montross_Resume.pdf', :filename => "Joshua_Montross_Resume.pdf"
   
@@ -81,7 +82,9 @@ __END__
                       <br style='clear:both' />                      
                       <a href="/resume.pdf" target="new"> Resume as pdf </a>                    
                       <br style='clear:both' />                      
-                        <small> I get to the point. You can count on me in a pinch. <br style='clear:both' /> ~j  </small>
+                       <% if @awesome_instance_variables[:tagline] %>
+                        <small> <%= @awesome_instance_variables[:tagline] %> <br style='clear:both' /> ~j  </small>
+                       <% end %> 
                        <% if @awesome_instance_variables[:working_with_rails] %>
                        <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
@@ -219,8 +222,7 @@ __END__
                   Conferences
                   <small>They are more than fun.</small>
                 </h1>
-            </div>
-            <p>I've attended the following conferences:</p>
+            </div>            
             <ul>
               <li>RubyConf 2009</li>
               <li>RubyConf 2010</li>
@@ -258,19 +260,22 @@ __END__
               </p>     
               <span class='label'>#jquery</span>
               <span class='label'>#mongo</span>
+              <span class='label'>#sinatra</span>
               <span class='label'>#nginx</span>                   				                         
+              <span class='label'>#unicorn</span>                                                    
 	        </div>  
           <div class='project'>
               <h3><a href="#"> pointmanj.com </a> </h3>
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
               <p>
-              Built in an afternoon for the purpose of having an online resume presence. The resume pdf is generated from this html.
-              It is open source and available for fork and customization on <a href="http://www.github.com/jmontross/pointmanj"> my github page.</a>
+              The resume pdf is generated from this html (and admittedly could use some work).
+              <a href="http://www.github.com/jmontross/pointmanj">The source is available here.</a>
               </p>     
 
-              <span class='label'>#jquery</span>
-              <span class='label'>#mongo</span>
-              <span class='label'>#nginx</span>                                                    
+              <span class='label'>#sinatra</span>
+              <span class='label'>#heroku</span>
+              <span class='label'>#pdfkit</span>                                                    
+              
           </div>
 	       <!--  <div class='project'>
               <h3>Open Source Contributions</h3>
