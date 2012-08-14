@@ -129,13 +129,13 @@ __END__
                 <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
                 <ul>
                 <li>
-                  Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
+                  Utilized rails 2.3 delayed jobs plugin to create a video transcoding solution for web recording and ipad display
                 </li>
                 <li>
                   Configuration management using chef and amazon web services to scale with grace.  
                 </li>
                 <li>
-                  Realized need for better local set up process; developed vagrant and chef-solo strategy for minimizing setup time across multiple services.
+                  Engineered vagrant, chef-solo, and virtual machine process for minimizing setup time across multiple services.
                 </li>
                 <li>
                   Introduced fellow employees in engineering and business intelligence to the use of ruby scripting to work more effectively with web services and eliminate repetitive tasks.  
