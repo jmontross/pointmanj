@@ -14,7 +14,7 @@ get '/' do
     :personal_image => nil,
     :personal_site => nil,
     :hire_availability => nil
-  }	
+  }
   YAML.load_file('config/personal_settings.yml').each do |key,value|
     @awesome_instance_variables[key.to_sym] = value
   end
@@ -34,7 +34,7 @@ get '/resume.pdf' do
     :personal_image => nil,
     :personal_site => nil,
     :hire_availability => nil
-  }	
+  }
   YAML.load_file('config/personal_settings.yml').each do |key,value|
     @awesome_instance_variables[key.to_sym] = value
   end
@@ -47,7 +47,7 @@ get '/resume.pdf' do
   # TODO : Only geneate a new resume if something changed.
   kit.to_file '/tmp/Joshua_Montross_Resume.pdf'
   send_file '/tmp/Joshua_Montross_Resume.pdf', :filename => "Joshua_Montross_Resume.pdf"
-  
+
 end
 
 __END__
@@ -55,7 +55,7 @@ __END__
 @@ resume
   <html>
    <head>
-  	
+
       <script src='/javascripts/bootstrap.js'></script>
       <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
       <link href='/stylesheets/style.css' rel='stylesheet' />
@@ -78,13 +78,13 @@ __END__
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:github] %>'></a>
                       <br style='clear:both' />
                       <br style='clear:both' />
-                    
-                      <br style='clear:both' />                      
-                      <a href="/resume.pdf" target="new"> Resume as pdf </a>                    
-                      <br style='clear:both' />                      
+
+                      <br style='clear:both' />
+                      <a href="/resume.pdf" target="new"> Resume as pdf </a>
+                      <br style='clear:both' />
                        <% if @awesome_instance_variables[:tagline] %>
                         <small> <%= @awesome_instance_variables[:tagline] %> <br style='clear:both' /> ~j  </small>
-                       <% end %> 
+                       <% end %>
                        <% if @awesome_instance_variables[:working_with_rails] %>
                        <a href='http://workingwithrails.com/person/<%= @awesome_instance_variables[:working_with_rails] %>'>
                         <img alt='Recommend Me' src='http://workingwithrails.com/images/tools/compact-small.jpg' />
@@ -93,7 +93,7 @@ __END__
                     </p>
                   </div>
                   <% if @awesome_instance_variables[:personal_site] %>
-                  	<a href="<%= @awesome_instance_variables[:personal_site]%>"> 
+                  	<a href="<%= @awesome_instance_variables[:personal_site]%>">
                   <% end %>
                   <img src='<%= @awesome_instance_variables[:personal_image] %>' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
                   <% if @awesome_instance_variables[:personal_site] %>
@@ -125,38 +125,38 @@ __END__
               <div class='project'>
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
-                <h4>October, 2011 - Current</h4>
+                <h4>October, 2011 - December, 2012</h4>
                 <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 delayed jobs plugin to create a video transcoding solution for web recording and ipad display
                 </li>
                 <li>
-                  Configuration management using chef and amazon web services to scale with grace.  
+                  Configuration management using chef and amazon web services to scale with grace (one command deploy).
                 </li>
                 <li>
                   Engineered vagrant, chef-solo, and virtual machine process for minimizing setup time across multiple services.
                 </li>
                 <li>
-                  Introduced fellow employees in engineering and business intelligence to the use of ruby scripting to work more effectively with web services and eliminate repetitive tasks.  
+                  Introduced fellow employees in engineering and business intelligence to the use of ruby scripting to work more effectively with web services and eliminate repetitive tasks.
                 </li>
                 </ul>
               </div>
               <div class='project'>
               <h2>Devbootcamp.com</h2>
                 <h3>Mentor</h3>
-                <h4>June, 2012 - Current</h4>
-                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to "world class beginner".  
+                <h4>June, 2011 - Current</h4>
+                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to "world class beginner".
                 </p>
                 <ul>
                 <li>
-                  Mentored two proteges learning to become ruby on rails developers for the summer cohort.
+                  Mentored two proteges learning to become ruby on rails developers for each cohort since summer 2011.
                 </li>
                 <li>
                   Provided assistance in understanding datatypes, duck-typing, and other core features of Ruby.
                 </li>
                 <li>
-   				        Pair programmed, showed how to write unit tests, and taught basic unix 101 with apache and sys5init.  
+   				        Pair programmed, showed how to write unit tests, and taught basic web apps on unix with apache and sys5init.
                 </li>
                 </ul>
               </div>
@@ -168,7 +168,7 @@ __END__
                	Made awesome applications empowering coaches, players, and parents to easily manage the soccer and sports organizations.
                 </p>
                 <ul>
-                  <li>Developed ruby (mostly sinatra) applicatons for paypal interaction, transaction repair automation, self-healing systems, and more.</li>                
+                  <li>Developed ruby (mostly sinatra) applicatons for paypal interaction, transaction repair automation, self-healing systems, and more.</li>
                   <li>Learned legacy templating language along with html and javascript for web design.  </li>
                   <li>Favored use of javascript building html on front end with fast queries on backend outputting json.  </li>
                 </ul>
@@ -196,10 +196,10 @@ __END__
                 <p>
                   <span class='label'>#rubyonrails</span>
                   <span class='label'>#javascript</span>
-                  <span class='label'>#prototype</span>        
+                  <span class='label'>#prototype</span>
                   <span class='label'>#agile</span>
                 </p>
-              </div>                     
+              </div>
             </div>
 
             <div class='span5'>
@@ -208,34 +208,31 @@ __END__
                   Education
                   <small>The roots are bitter, but the fruit is sweet. </small>
                 </h1>
-	            </div>            
+	            </div>
             <div class='project'>
               <h3>BBA, Finance and Information Systems</h3>
-              <h4>2004-2008 George Washington University</h4>              
+              <h4>2004-2008 George Washington University</h4>
             </div>
             <div class='project'>
               <h3>MS, Information Systems Design</h3>
-              <h4>2008-2009 George Washington University</h4>              
-            </div>  
+              <h4>2008-2009 George Washington University</h4>
+            </div>
             <div class='project'>
                 <h1>
                   Conferences
                   <small>They are more than fun.</small>
                 </h1>
-            </div>            
+            </div>
             <ul>
+              <li>RubyConf 2012</li>
               <li>RubyConf 2009</li>
               <li>RubyConf 2010</li>
               <li>Dreamforce 2010</li>
               <li>JSConf 2009</li>
               <li>JSConf 2010</li>
               <li>CanvasCon 2011</li>
-              <li>
-                RailsConf 2008 (presented lightening talk on restful_workflow)
-              </li>
-              <li>RailsConf 2007</li>
             </ul>
-     
+
             <div class='project'>
               <h1>
                 Side projects
@@ -244,51 +241,51 @@ __END__
             </div>
             <div class='project'>
               <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> </h3>
-              <h4> Crossfit style training where all sales go to honorvet.org </h4>              
+              <h4> Crossfit style training where all sales go to honorvet.org </h4>
               <ul>
               <li> Time was donated </li>
               <li> Built in one day on August 4th, 2012. </li>
               <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
-              </ul>              
+              </ul>
               <span class='label'>#wordpress</span>
-	        </div>    	        
+	        </div>
             <div class='project'>
               <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
               <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
               <p>
-              Worked with friend Colin Van Dyke to build in late 2010.   
-              </p>     
+              Worked with friend Colin Van Dyke to build in late 2010.
+              </p>
               <span class='label'>#jquery</span>
               <span class='label'>#mongo</span>
               <span class='label'>#sinatra</span>
-              <span class='label'>#nginx</span>                   				                         
-              <span class='label'>#unicorn</span>                                                    
-	        </div>  
+              <span class='label'>#nginx</span>
+              <span class='label'>#unicorn</span>
+	        </div>
           <div class='project'>
               <h3><a href="#"> pointmanj.com </a> </h3>
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
               <p>
               The resume pdf is generated from this html (and admittedly could use some work).
               <a href="http://www.github.com/jmontross/pointmanj">The source is available here.</a>
-              </p>     
+              </p>
 
               <span class='label'>#sinatra</span>
               <span class='label'>#heroku</span>
-              <span class='label'>#pdfkit</span>                                                    
-              
+              <span class='label'>#pdfkit</span>
+
           </div>
 	       <!--  <div class='project'>
               <h3>Open Source Contributions</h3>
               <h4>Pay it forward </h4>
               <p>
                I enjoy contributing to open sourece projects I am using and would like to improve.
-              </p>                     		
+              </p>
               <ul>
               <li>Veewee - building of baseboxes for use with systems configuration</li>
               <li>Dansbeerlist - working with friend on a rails 3 app he created </li>
               <li>check my github for latest</li>
-              </ul>		                         
-	        </div>  	    -->                 
+              </ul>
+	        </div>  	    -->
           </div>
         </section>
       </div>
@@ -317,28 +314,28 @@ __END__
               <div class='project'>
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
-                <h4>October, 2012 - Current</h4>
+                <h4>October, 2012 - December, 2012</h4>
                 <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
                 </li>
                 <li>
-                  Configuration management using chef and amazon web services to scale with grace.  
+                  Configuration management using chef and amazon web services to scale with grace.
                 </li>
                 <li>
                   Realized need for better local set up process; developed vagrant and chef-solo strategy for minimizing setup time across multiple services.
                 </li>
                 <li>
-                  Mentored multiple fellow employees in engineering and business intelligence on using ruby for scripts to work more effectively with web services.  
+                  Mentored multiple fellow employees in engineering and business intelligence on using ruby for scripts to work more effectively with web services.
                 </li>
                 </ul>
               </div>
               <div class='project'>
               <h2>Devbootcamp.com</h2>
                 <h3>Mentor</h3>
-                <h4>June, 2012 - Current</h4>
-                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to world class beginner.  
+                <h4>June, 2011 - Current</h4>
+                <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to world class beginner.
                 The course is renowned for good content and providing students with the necessary skills to land their first engineering job. </p>
                 <ul>
                 <li>
@@ -348,7 +345,7 @@ __END__
                   Provided assistance in understanding datatypes, duck-typing, and other core features of Ruby.
                 </li>
                 <li>
-   				  Pair programmed, showed how to write unit tests, and taught basic unix 101 with apache and sys5init.  
+   				  Pair programmed, showed how to write unit tests, and taught basic web apps on unix with apache and sys5init.
                 </li>
                 </ul>
               </div>
@@ -360,8 +357,8 @@ __END__
                	Made awesome applications empowering coaches, players, and parents to easily manage their sports organizations.
                 </p>
                 <ul>
-                  <li>Developed multiple sinatra applicatons.</li>                
-                  <li>Standalone CLI ruby applications for running our unique infrastructure</li>             
+                  <li>Developed multiple sinatra applicatons.</li>
+                  <li>Standalone CLI ruby applications for running our unique infrastructure</li>
                   <li>Employed a variety of very helpful Ruby Gems as well as wrote own when there were none to fit the need</li>
                   <li>Learned legacy templating language and used along with firebird for supporting the past</li>
                 </ul>
