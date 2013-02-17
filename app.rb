@@ -39,7 +39,7 @@ get '/resume.pdf' do
     @awesome_instance_variables[key.to_sym] = value
   end
   kit = PDFKit.new(erb :pdf)
-  puts "Dir.entries '.' #{Dir.entries('.').inspect}"
+  # puts "Dir.entries '.' #{Dir.entries('.').inspect}"
   # kit.stylesheets << './public/stylesheets/style.css'
   kit.stylesheets << './public/stylesheets/bootstrap.min.css'
   # kit.to_pdf
@@ -141,6 +141,14 @@ __END__
                   Introduced fellow employees in engineering and business intelligence to the use of ruby scripting to work more effectively with web services and eliminate repetitive tasks.
                 </li>
                 </ul>
+                <p>
+                  <span class='label'>#rubyonrails</span>
+                  <span class='label'>#javascript</span>
+                  <span class='label'>#jquery</span>
+                  <span class='label'>#php</span>
+                  <span class='label'>#mongo</span>
+                  <span class='label'>#AWS</span>
+                </p>
               </div>
               <div class='project'>
               <h2>Devbootcamp.com</h2>
