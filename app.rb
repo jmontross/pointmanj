@@ -64,7 +64,7 @@ __END__
       <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css' />
       <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
     </head>
-     <body style='padding-top: 200px'>
+     <body class="body">
       <div class='navbar navbar-fixed-top'>
         <div class='navbar-inner'>
           <div class='container'>
@@ -232,6 +232,7 @@ __END__
                 </h1>
             </div>
             <ul>
+              <li>Waza 2013</li>
               <li>RubyConf 2012</li>
               <li>RubyConf 2009</li>
               <li>RubyConf 2010</li>
@@ -308,7 +309,7 @@ __END__
    <link href='/stylesheets/bootstrap.min.css' rel='stylesheet'/>
    <link href='/stylesheets/style.css' rel='stylesheet' />
    </head>
-     <body style='padding-top: 200px'>
+     <body>
       <div class='container'>
         <section id='projects'>
           <div class='row'>

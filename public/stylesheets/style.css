@@ -8,6 +8,7 @@
 .project {
   margin-bottom: 20px;
 }
+
 a.linkedin {
   background: url(/images/social/linkedin.png) no-repeat;
   height: 32px;
@@ -29,3 +30,7 @@ a.twitter {
   float:left;
   display:block;
 }
+
+@media (min-width: 979px) {.body {
+  padding-top: 200px;
+}}
