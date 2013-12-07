@@ -371,16 +371,6 @@ __END__
                   <li>Employed a variety of very helpful Ruby Gems as well as wrote own when there were none to fit the need</li>
                   <li>Learned legacy templating language and used along with firebird for supporting the past</li>
                 </ul>
-                <p>
-                  <span class='label'>#rubyonrails</span>
-                  <span class='label'>#javascript</span>
-                  <span class='label'>#jquery</span>
-                  <span class='label'>#coffeescript</span>
-                  <span class='label'>#datatables</span>
-                  <span class='label'>#sqlserver</span>
-                  <span class='label'>#extjs</span>
-                  <span class='label'>#agile</span>
-                </p>
               </div>
             </div>
           </div>
