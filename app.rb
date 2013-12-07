@@ -123,6 +123,35 @@ __END__
                 </h1>
               </div>
               <div class='project'>
+                <h2>Picaro</h2>
+                <h3>Senior Software Engineer</h3>
+                <h4>February, 2013 - November, 2013</h4>
+                <p> Bringing transparency to methane emissions in the natural gas industry and providing technology for molecular spectroscopy </p>
+                <ul>
+                <li>
+                  Created new product with one other dev using node.js, jquery, Google maps, and leaflet to map and share methane emissions
+                </li>
+                <li>
+                  Moved dev team to be more agile by using git, pivotal tracker, and then convincing stakeholders of benefits.
+                </li>
+                <li>
+                  Wrote chef recipes for our different web products to use with vagrant to take setup time of personal environment from multiple days to minutes and zero chance of missed steps
+                </li>
+                <li>
+                  Created new API endpints for node.js application for easier mapping of routes and methane emissions
+                </li>
+                </ul>
+                <p>
+                  <span class='label'>#python</span>
+                  <span class='label'>#javascript</span>
+                  <span class='label'>#node.js</span>
+                  <span class='label'>#jquery</span>
+                  <span class='label'>#mongo</span>
+                  <span class='label'>#AWS</span>
+                  <span class='label'>#chef</span>
+                </p>
+              </div>
+              <div class='project'>
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
                 <h4>October, 2011 - December, 2012</h4>
@@ -319,6 +348,25 @@ __END__
                   Projects and Jobs
                   <small>I have worked with Ruby and Rails since 2008.</small>
                 </h1>
+              </div>
+              <div class='project'>
+                <h2>Picaro</h2>
+                <h3>Senior Software Engineer</h3>
+                <h4>February, 2013 - November, 2013</h4>
+                <p> Bringing transparency to methane emissions in the natural gas industry and providing technology for molecular spectroscopy </p>
+                <ul>
+                <li>
+                  Created new product with one other dev using node.js, jquery, Google maps, and leaflet to map and share methane emissions
+                </li>
+                <li>
+                  Moved dev team to be more agile by using git, pivotal tracker, and then convincing stakeholders of benefits.
+                </li>
+                <li>
+                  Wrote chef recipes for our different web products to use with vagrant to take setup time of personal environment from multiple days to minutes and zero chance of missed steps
+                </li>
+                <li>
+                  Created new API endpints for node.js application for easier mapping of routes and methane emissions
+                </li>
               </div>
               <div class='project'>
                 <h2>Empowered.com</h2>
