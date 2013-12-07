@@ -1,15 +1,15 @@
 README
 
-  This is hosted on heroku. 
+  This is hosted on heroku.
 
   I followed the steps here https://devcenter.heroku.com/articles/rack
 
   I setup my heroku using these steps https://devcenter.heroku.com/articles/keys
 
-  what next?  maybe move personalized info into a yaml file so the image info, twitter, github, and linked in are pulled from yaml and I use erb to parse.  Right now sinatra is a bit overkill since there is no data processing. 
+  what next?  maybe move personalized info into a yaml file so the image info, twitter, github, and linked in are pulled from yaml and I use erb to parse.  Right now sinatra is a bit overkill since there is no data processing.
 
-  Done with the personalizing... 
-  modify config with your values 
+  Done with the personalizing...
+  modify config with your values
 
 name : Joshua Montross
 twitter : jdmontross
@@ -22,6 +22,9 @@ personal_site : http://www.joshuamontross.com
 job_title: Ruby on Rails Engineer
 hire_availability : unavailable
 
-  Added in some generation of the resume as a pdf.  Perhaps need to look into moving these to a views folder as there are now two views.  Also need separate style sheet for PDF.  It doesn't look as good. 
+  Added in some generation of the resume as a pdf.  Perhaps need to look into moving these to a views folder as there are now two views.  Also need separate style sheet for PDF.  It doesn't look as good.
 
   This was super helpful - http://thinkrelevance.com/blog/2010/06/15/rethinking-pdf-creation-in-ruby
+
+The pdf function only works on Heroku :(
+Need to make this more useful for others
