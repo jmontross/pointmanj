@@ -126,6 +126,32 @@ __END__
                 </h1>
               </div>
               <div class='project'>
+                <h2>The CryoZone</h2>
+                <h3>Co-Founder and C(F||T)O </h3>
+                <h4>June 2014 - Present</h4>
+                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SASS products</p>
+                <ul>
+                <li>
+                  Compared various POS and CRM systems to create a streamlined system for scheduling and payments
+                </li>
+                 <li>
+                  Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
+                </li>
+                 <li>
+                  Create monthly reports of financials for other investors
+                </li>
+                <li>
+                  Investigate, executem, and learn from different email, ad, and social campaigns
+                </li>
+                </ul>
+                <p>
+                  <span class='label'>#wordpress</span>
+                  <span class='label'>#CTO</span>
+                  <span class='label'>#SEO</span>
+                  <span class='label'>#CFO</span>
+                </p>
+              </div>
+              <div class='project'>
                 <h2>Picaro</h2>
                 <h3>Senior Software Engineer</h3>
                 <h4>February, 2013 - November, 2013</h4>
@@ -307,7 +333,7 @@ __END__
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
               <p>
               The resume pdf is generated from this html (and admittedly could use some work).
-              <a href="http://www.github.com/jmontross/pointmanj">The source is available here.</a>
+              <a href="http://www.github.com/joshuamontras/pointmanj">The source is available here.</a>
               </p>
 
               <span class='label'>#sinatra</span>
