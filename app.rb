@@ -129,7 +129,7 @@ __END__
                 <h2>The CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>June 2014 - Present</h4>
-                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SASS products</p>
+                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
                 <ul>
                 <li>
                   Compared various POS and CRM systems to create a streamlined system for scheduling and payments
