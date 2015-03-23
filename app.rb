@@ -151,6 +151,26 @@ __END__
                   <span class='label'>#CFO</span>
                 </p>
               </div>
+                    <div class='project'>
+                <h2>Karma Grove</h2>
+                <h3>Founder</h3>
+                <h4>June 2014 - Present</h4>
+                <p> Conscious commerce system</p>
+                <ul>
+                <li>
+                  Building POS that enforces a minimum of 1% of revenue as a donation right of the customer and a write off for the business owner
+                </li>
+                <li>
+                  Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
+                </li>
+                </ul>
+                <p>
+                  <span class='label'>#wordpress</span>
+                  <span class='label'>#CTO</span>
+                  <span class='label'>#SEO</span>
+                  <span class='label'>#CFO</span>
+                </p>
+              </div>
               <div class='project'>
                 <h2>Picaro</h2>
                 <h3>Senior Software Engineer</h3>
@@ -316,6 +336,7 @@ __END__
               </ul>
               <span class='label'>#wordpress</span>
 	        </div>
+
             <div class='project'>
               <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
               <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
@@ -328,6 +349,17 @@ __END__
               <span class='label'>#nginx</span>
               <span class='label'>#unicorn</span>
 	        </div>
+           <div class='project'>
+              <h3><a href= "http://wwww.luminosafestival.com"> luminosa festival </a> </h3>
+              <h4> Dance and music festival </h4>
+              <ul>
+              <li> HTTPS Wordpress site with two designers and external systems  </li>
+              <li> Ticket sales included donation using @karmagrove system </li>
+              <li> Co-Created brand,social media presence, and social justice component with 1% of ticket sales going to charity, </li>
+              </ul>
+              <span class='label'>#wordpress</span>
+              <span class='label'>#karmagrove</span>
+          </div>
           <div class='project'>
               <h3><a href="#"> pointmanj.com </a> </h3>
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
