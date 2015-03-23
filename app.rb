@@ -158,17 +158,17 @@ __END__
                 <p> Conscious commerce system</p>
                 <ul>
                 <li>
-                  Building POS that enforces a minimum of 1% of revenue as a donation right of the customer and a write off for the business owner
+                  Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
                 </li>
                 <li>
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
                 </li>
                 </ul>
                 <p>
-                  <span class='label'>#wordpress</span>
-                  <span class='label'>#CTO</span>
-                  <span class='label'>#SEO</span>
-                  <span class='label'>#CFO</span>
+                  <span class='label'>#Rails</span>
+                  <span class='label'>#Ruby</span>
+                  <span class='label'>#BalancedAPI</span>
+                  <span class='label'>#Javascript</span>
                 </p>
               </div>
               <div class='project'>
