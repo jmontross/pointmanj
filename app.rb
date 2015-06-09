@@ -449,12 +449,6 @@ __END__
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
                 </li>
                 </ul>
-                <p>
-                  <span class='label'>#Rails</span>
-                  <span class='label'>#Ruby</span>
-                  <span class='label'>#BalancedAPI</span>
-                  <span class='label'>#Javascript</span>
-                </p>
               </div>
               <div class='project'>
                 <h2>Picarro</h2>
