@@ -141,7 +141,10 @@ __END__
                   Create monthly reports of financials for other investors
                 </li>
                 <li>
-                  Investigate, executem, and learn from different email, ad, and social campaigns
+                  Investigate, execute, and learn from different email, ad, and social campaigns
+                </li>
+                <li>
+                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
                 </li>
                 </ul>
                 <p>
@@ -155,7 +158,7 @@ __END__
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
                 <h4>June 2014 - Present</h4>
-                <p> Conscious commerce system</p>
+                <p> Conscious commerce system <a href="http://wwww.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
                   Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
@@ -411,7 +414,50 @@ __END__
                 </h1>
               </div>
               <div class='project'>
-                <h2>Picaro</h2>
+                <h2>The CryoZone</h2>
+                <h3>Co-Founder and C(F||T)O </h3>
+                <h4>June 2014 - Present</h4>
+                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
+                <ul>
+                <li>
+                  Compared various POS and CRM systems to create a streamlined system for scheduling and payments
+                </li>
+                 <li>
+                  Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
+                </li>
+                 <li>
+                  Create monthly reports of financials for other investors - automatically.
+                </li>
+                <li>
+                  Investigate, execute, and learn from different email, ad, and social campaigns
+                </li>
+                <li>
+                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
+                </li>
+                </ul>
+              </div>
+                    <div class='project'>
+                <h2>Karma Grove</h2>
+                <h3>Founder</h3>
+                <h4>June 2014 - Present</h4>
+                <p> Conscious commerce system <a href="http://wwww.karmagrove.com"> KarmaGrove.com </a></p>
+                <ul>
+                <li>
+                  Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
+                </li>
+                <li>
+                  Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
+                </li>
+                </ul>
+                <p>
+                  <span class='label'>#Rails</span>
+                  <span class='label'>#Ruby</span>
+                  <span class='label'>#BalancedAPI</span>
+                  <span class='label'>#Javascript</span>
+                </p>
+              </div>
+              <div class='project'>
+                <h2>Picarro</h2>
                 <h3>Senior Software Engineer</h3>
                 <h4>February, 2013 - November, 2013</h4>
                 <p> Bringing transparency to methane emissions in the natural gas industry and providing technology for molecular spectroscopy </p>
