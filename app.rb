@@ -416,7 +416,7 @@ __END__
               <div class='project'>
                 <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
-                <h4>June 2014 - Present</h4>
+                <h4>January 2014 - Present</h4>
                 <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
                 <ul>
                 <li>
@@ -439,7 +439,7 @@ __END__
                     <div class='project'>
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
-                <h4>June 2014 - Present</h4>
+                <h4>June 2013 - Present</h4>
                 <p> Conscious commerce system <a href="http://wwww.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
