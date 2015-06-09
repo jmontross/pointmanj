@@ -126,7 +126,7 @@ __END__
                 </h1>
               </div>
               <div class='project'>
-                <h2>The CryoZone</h2>
+                <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>June 2014 - Present</h4>
                 <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
@@ -414,7 +414,7 @@ __END__
                 </h1>
               </div>
               <div class='project'>
-                <h2>The CryoZone</h2>
+                <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>June 2014 - Present</h4>
                 <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
