@@ -158,7 +158,7 @@ __END__
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
                 <h4>June 2013 - Present</h4>
-                <p> Conscious commerce system <a href="http://wwww.karmagrove.com"> KarmaGrove.com </a></p>
+                <p> Conscious commerce system <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
                   Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
@@ -330,7 +330,7 @@ __END__
               </h1>
             </div>
             <div class='project'>
-              <h3><a href= "http://wwww.crossvet.org"> Crossvet.org </a> </h3>
+              <h3><a href= "http://www.crossvet.org"> Crossvet.org </a> </h3>
               <h4> Crossfit style training where all sales go to honorvet.org </h4>
               <ul>
               <li> Time was donated </li>
@@ -353,7 +353,7 @@ __END__
               <span class='label'>#unicorn</span>
 	        </div>
            <div class='project'>
-              <h3><a href= "http://wwww.luminosafestival.com"> luminosa festival </a> </h3>
+              <h3><a href= "http://www.luminosafestival.com"> luminosa festival </a> </h3>
               <h4> Dance and music festival </h4>
               <ul>
               <li> HTTPS Wordpress site with two designers and external systems  </li>
@@ -440,7 +440,7 @@ __END__
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
                 <h4>June 2013 - Present</h4>
-                <p> Conscious commerce system <a href="http://wwww.karmagrove.com"> KarmaGrove.com </a></p>
+                <p> Conscious commerce system <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
                   Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
