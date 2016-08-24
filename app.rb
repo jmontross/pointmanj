@@ -163,6 +163,9 @@ __END__
                 <li>
                   Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
                 </li>
+                <li>
+                  Wrote web applications for Cryo Sauna manufacturer allowing machines to send data to web app 
+                </li>
                 </ul>
                 <p>
                   <span class='label'>#wordpress</span>
@@ -175,10 +178,10 @@ __END__
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
                 <h4>June 2013 - Present</h4>
-                <p> Conscious commerce system <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
+                <p> Mobile Point of Sale System and Online Store <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
-                  Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
+                  Continuously creating marketplace for charities and business owners to meet and support community causes. A minimum of 1% of revenue automatically given at point of sale and record kept as write off for the business owner
                 </li>
                 <li>
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
@@ -427,7 +430,10 @@ __END__
                   Investigate, execute, and learn from different email, ad, and social campaigns
                 </li>
                 <li>
-                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
+                  Wrote internal web applications in rails for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
+                </li>
+                <li>
+                  Wrote web applications for Cryo Sauna manufacturer allowing machines to send data to web app 
                 </li>
                 </ul>
               </div>
@@ -438,7 +444,7 @@ __END__
                 <p> Conscious commerce system <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
-                  Contiunuously creating market and POS system that enforces a minimum of 1% of revenue as a donation right of the consumer and a write off for the business owner or seller
+                  Continuously creating marketplace for charities and business owners to meet and support community causes. A minimum of 1% of revenue automatically given at point of sale and record kept as write off for the business owner
                 </li>
                 <li>
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
