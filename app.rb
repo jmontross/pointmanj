@@ -224,7 +224,7 @@ __END__
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
                 <h4>October, 2011 - December, 2012</h4>
-                <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
+                <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='https://github.com/instructure/canvas-lms/wiki'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 delayed jobs plugin to create a video transcoding solution for web recording and ipad display
