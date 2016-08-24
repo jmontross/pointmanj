@@ -353,7 +353,7 @@ __END__
               <h3><a href= "http://www.circlingeurope.com"> Circling Europe </a> </h3>
               <h4> Company specializes in leadership training </h4>
               <ul>
-              <li> Implemented new booking system with auomated mailers </li>
+              <li> Implemented new booking system with automated mailers </li>
               <li> Created development server identical to production </li>
               <li> Introduced best practices in software and managed other contractors</li>
               </ul>
