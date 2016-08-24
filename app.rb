@@ -22,6 +22,23 @@ get '/' do
   erb :resume
 end
 
+get "/test" do 
+  foo = params[:email]
+  kalam = params[:kalamazoo]  
+
+  '<html>
+  
+  <head>
+  
+  </head>
+  
+  <body>
+  <a href="mailto:' + foo + '@karmagrove.com?subject='+kalam+'"> email me </a>
+  <b>' +  kalam + '</b>
+  </body>
+  
+  </html>'
+end
 
 get '/resume.pdf' do
 	 @awesome_instance_variables = {
@@ -330,39 +347,16 @@ __END__
               </h1>
             </div>
             <div class='project'>
-              <h3><a href= "http://www.crossvet.org"> Crossvet.org </a> </h3>
-              <h4> Crossfit style training where all sales go to honorvet.org </h4>
+              <h3><a href= "http://www.circlingeurope.com"> Circling Europe </a> </h3>
+              <h4> Company specializes in leadership training </h4>
               <ul>
-              <li> Time was donated </li>
-              <li> Built in one day on August 4th, 2012. </li>
-              <li> Created brand, logo, site design, and copyright with one graphically skilled friend, AWS, CLI, and Sublime </li>
+              <li> Implemented new booking system with auomated mailers </li>
+              <li> Created development server identical to production </li>
+              <li> Introduced best practices in software and managed other contractors</li>
               </ul>
               <span class='label'>#wordpress</span>
 	        </div>
 
-            <div class='project'>
-              <h3><a href="thebridgeprojectdc.org"> The Bridge Project</a> </h3>
-              <h4>Sinatra and mongo app for mapping social services in Washington, DC </h4>
-              <p>
-              Worked with friend Colin Van Dyke to build in late 2010.
-              </p>
-              <span class='label'>#jquery</span>
-              <span class='label'>#mongo</span>
-              <span class='label'>#sinatra</span>
-              <span class='label'>#nginx</span>
-              <span class='label'>#unicorn</span>
-	        </div>
-           <div class='project'>
-              <h3><a href= "http://www.luminosafestival.com"> luminosa festival </a> </h3>
-              <h4> Dance and music festival </h4>
-              <ul>
-              <li> HTTPS Wordpress site with two designers and external systems  </li>
-              <li> Ticket sales included donation using @karmagrove system </li>
-              <li> Co-Created brand,social media presence, and social justice component with 1% of ticket sales going to charity, </li>
-              </ul>
-              <span class='label'>#wordpress</span>
-              <span class='label'>#karmagrove</span>
-          </div>
           <div class='project'>
               <h3><a href="#"> pointmanj.com </a> </h3>
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
