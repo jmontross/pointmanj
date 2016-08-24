@@ -155,7 +155,7 @@ __END__
                   Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
                 </li>
                  <li>
-                  Create monthly reports of financials for other investors
+                 Create monthly reports of financials for other partners and investors to measure profitability for each product / plan. 
                 </li>
                 <li>
                   Investigate, execute, and learn from different email, ad, and social campaigns
@@ -418,9 +418,10 @@ __END__
                 </li>
                  <li>
                   Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
+                  Then outsourced it all to bench.co for even easier process.  
                 </li>
                  <li>
-                  Create monthly reports of financials for other investors - automatically.
+                  Create monthly reports of financials for other partners and investors to measure profitability for each product / plan. 
                 </li>
                 <li>
                   Investigate, execute, and learn from different email, ad, and social campaigns
@@ -467,7 +468,7 @@ __END__
                 <h2>Empowered.com</h2>
                 <h3>Software Engineer</h3>
                 <h4>October, 2012 - December, 2012</h4>
-                <p>Empowering students to learn useful skills from a university using great technology.  I am the project lead on our fork of the open source application <a href='http://www.github.com/empowered/canvas-lms'> canvas-lms </a> .</p>
+                <p>Empowering students to learn useful skills from a university using great technology.  I was the project lead on our fork of the open source application <a href='https://github.com/instructure/canvas-lms/wiki'> canvas-lms </a> .</p>
                 <ul>
                 <li>
                   Utilized rails 2.3 plugin background_job to create a video transcoding solution for web recording and ipad display
@@ -497,7 +498,7 @@ __END__
                   Provided assistance in understanding datatypes, duck-typing, and other core features of Ruby.
                 </li>
                 <li>
-   				  Pair programmed, showed how to write unit tests, and taught basic web apps on unix with apache and sys5init.
+   				        Pair programmed, showed how to write unit tests, and taught basic web apps on unix with apache and sys5init.
                 </li>
                 </ul>
               </div>
