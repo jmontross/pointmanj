@@ -146,19 +146,16 @@ __END__
                 <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>January 2014 - Present</h4>
-                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
+                <p> Creating a world-class whole body cryotherapy experience using open source software, skillful incentives for stakeholders, and integrating SAS products</p>
                 <ul>
                 <li>
                   Compared various POS and CRM systems to create a streamlined system for scheduling and payments
                 </li>
                  <li>
-                  Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
-                </li>
-                 <li>
                  Create monthly reports of financials for other partners and investors to measure profitability for each product / plan. 
                 </li>
                 <li>
-                  Investigate, execute, and learn from different email, ad, and social campaigns
+                  Investigate, execute, and learn from different email, ad, and social campaigns.  Automate them where makes sense.
                 </li>
                 <li>
                   Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management, plans and usage, and commissions
@@ -175,10 +172,13 @@ __END__
                 <h2>Karma Grove</h2>
                 <h3>Founder</h3>
                 <h4>June 2013 - Present</h4>
-                <p> Mobile Point of Sale System and Online Store <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
+                <p> Web and Mobile Point of Sale System and Online Store <a href="http://www.karmagrove.com"> KarmaGrove.com </a></p>
                 <ul>
                 <li>
                   Continuously creating marketplace for charities and business owners to meet and support community causes. A minimum of 1% of revenue automatically given at point of sale and record kept as write off for the business owner
+                </li>
+                <li>
+                  Designed, Built, Marketed, Deployed version 1 all alone in one week from a cafe.  
                 </li>
                 <li>
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
@@ -188,11 +188,12 @@ __END__
                   <span class='label'>#Rails</span>
                   <span class='label'>#Ruby</span>
                   <span class='label'>#BalancedAPI</span>
+                  <span class='label'>#BalancedAPI</span>
                   <span class='label'>#Javascript</span>
                 </p>
               </div>
               <div class='project'>
-                <h2>Picaro</h2>
+                <h2>Picarro</h2>
                 <h3>Senior Software Engineer</h3>
                 <h4>February, 2013 - November, 2013</h4>
                 <p> Bringing transparency to methane emissions in the natural gas industry and providing technology for molecular spectroscopy </p>
@@ -251,7 +252,7 @@ __END__
               <div class='project'>
               <h2>Devbootcamp.com</h2>
                 <h3>Mentor</h3>
-                <h4>June, 2011 - Current</h4>
+                <h4>June, 2011 - June 2013</h4>
                 <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to "world class beginner".
                 </p>
                 <ul>
@@ -362,7 +363,7 @@ __END__
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
               <p>
               The resume pdf is generated from this html (and admittedly could use some work).
-              <a href="http://www.github.com/joshuamontras/pointmanj">The source is available here.</a>
+              <a href="http://www.github.com/jmontross/pointmanj">The source is available here.</a>
               </p>
 
               <span class='label'>#sinatra</span>
@@ -411,14 +412,10 @@ __END__
                 <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>January 2014 - Present</h4>
-                <p> Creating a world-class whole body cryotherapy experience using open source software and integrating SAS products</p>
+                <p> Creating a world-class whole body cryotherapy experience using open source software, skillful incentives for stakeholders, and integrating SAS products </p>
                 <ul>
                 <li>
                   Compared various POS and CRM systems to create a streamlined system for scheduling and payments
-                </li>
-                 <li>
-                  Set up simple processes for expenses and invoices so interacting with quickbooks is simple monthly task.
-                  Then outsourced it all to bench.co for even easier process.  
                 </li>
                  <li>
                   Create monthly reports of financials for other partners and investors to measure profitability for each product / plan. 
@@ -487,7 +484,7 @@ __END__
               <div class='project'>
               <h2>Devbootcamp.com</h2>
                 <h3>Mentor</h3>
-                <h4>June, 2011 - Current</h4>
+                <h4>June, 2011 - June 2013</h4>
                 <p>Dev boot camp is an intensive 10 week course meant to take someone from very little programming skill to world class beginner.
                 The course is renowned for good content and providing students with the necessary skills to land their first engineering job. </p>
                 <ul>
