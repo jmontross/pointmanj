@@ -23,8 +23,8 @@ a.github {
   float:left;
   display:block;
 }
-a.twitter {
-  background: url(/images/social/twitter.png) no-repeat;
+a.stackoverflow {
+  background: url(/images/social/stackoverflow25px.svg) no-repeat;
   height: 32px;
   padding-left: 30px;
   float:left;

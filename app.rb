@@ -90,7 +90,7 @@ __END__
                 <header class='jumbotron subhead' id='overview' style='margin-left:-20px; margin-right:-20px; margin-bottom:0px; padding: 20px; padding-bottom:30px; border-radius: 0px 0px 15px 15px;'>
                   <div style='float:right'>
                     <p>
-                      <a class='twitter' href='http://twitter.com/#!/<%= @awesome_instance_variables[:twitter] %>'></a>
+                      <a class='stackoverflow' href='http://stackoverflow.com/users/602215/jmontross'></a>
                       <a class='linkedin' href='http://www.linkedin.com/in/<%= @awesome_instance_variables[:linkedin] %>'></a>
                       <a class='github' href='https://github.com/<%= @awesome_instance_variables[:github] %>'></a>
                       <!-- <a href="https://coderwall.com/jmontross"><img alt="Endorse jmontross on Coderwall" src="https://api.coderwall.com/jmontross/endorsecount.png" /></a> -->
