@@ -161,10 +161,7 @@ __END__
                   Investigate, execute, and learn from different email, ad, and social campaigns
                 </li>
                 <li>
-                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
-                </li>
-                <li>
-                  Wrote web applications for Cryo Sauna manufacturer allowing machines to send data to web app 
+                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management, plans and usage, and commissions
                 </li>
                 </ul>
                 <p>
@@ -361,7 +358,7 @@ __END__
 	        </div>
 
           <div class='project'>
-              <h3><a href="#"> pointmanj.com </a> </h3>
+              <h3><a href="#"> jmontross.com </a> </h3>
               <h4>Sinatra app with webkit and pdf generation from html content on the fly </h4>
               <p>
               The resume pdf is generated from this html (and admittedly could use some work).
@@ -430,10 +427,7 @@ __END__
                   Investigate, execute, and learn from different email, ad, and social campaigns
                 </li>
                 <li>
-                  Wrote internal web applications in rails for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management
-                </li>
-                <li>
-                  Wrote web applications for Cryo Sauna manufacturer allowing machines to send data to web app 
+                  Wrote internal web applications for authenticating and using the APIs of our CRM for our specfic business processes around nitrogen gas management, plans and usage, and commissions
                 </li>
                 </ul>
               </div>
