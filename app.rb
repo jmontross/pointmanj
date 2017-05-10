@@ -100,7 +100,7 @@ __END__
                       <br style='clear:both' />
                       <a href="/resume.pdf" target="new"> Resume as pdf </a>
                       <br style='clear:both' />
-                      <a href="/docs/Joshua_Montross_Resume.doc" target="new"> Resume as word document </a>
+                      <a href="/docs/Joshua_Montross_Resume.docx" target="new"> Resume as word document </a>
                       <br style='clear:both' />
                        <% if @awesome_instance_variables[:tagline] %>
                         <small> <%= @awesome_instance_variables[:tagline] %> <br style='clear:both' /> ~j  </small>
