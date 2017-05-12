@@ -115,7 +115,7 @@ __END__
                   <% if @awesome_instance_variables[:personal_site] %>
                   	<a href="<%= @awesome_instance_variables[:personal_site]%>">
                   <% end %>
-                  <img src='<%= @awesome_instance_variables[:personal_image] %>' style='float:left; padding: 10px; width: 190px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
+                  <img src='<%= @awesome_instance_variables[:personal_image] %>' style='float:left; padding: 10px; width: 110px; clear:bottom; margin:0px 20px 20px 0px; padding:4px; background-color: rgb(255,255,255)' />
                   <% if @awesome_instance_variables[:personal_site] %>
                   	</a>
                   <% end %>
