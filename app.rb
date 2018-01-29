@@ -335,8 +335,9 @@ __END__
                 </h1>
             </div>
             <ul>
+              <li>BulletProof 2017</li>
               <li>RubyConf 2015</li>
-              <li>Waza 2013</li>
+              <li>Heroku Waza 2013</li>
               <li>RubyConf 2012</li>
               <li>CanvasCon 2011</li>
               <li>RubyConf 2010</li>
