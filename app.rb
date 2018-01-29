@@ -146,7 +146,7 @@ __END__
                 <h2>CryoZone</h2>
                 <h3>Co-Founder and C(F||T)O </h3>
                 <h4>January 2014 - Present</h4>
-                <p> Creating a world-class whole body cryotherapy experience using open source software, skillful incentives for stakeholders, and integrating SAS products</p>
+                <p> Creating a world-class whole body cryotherapy experience using open source software, skillful incentives for stakeholders, and integrating SAAS products</p>
                 <ul>
                 <li>
                   Compared various POS and CRM systems to create a streamlined system for scheduling and payments
@@ -162,10 +162,12 @@ __END__
                 </li>
                 </ul>
                 <p>
-                  <span class='label'>#wordpress</span>
                   <span class='label'>#CTO</span>
-                  <span class='label'>#SEO</span>
                   <span class='label'>#CFO</span>
+                  <span class='label'>#wordpress</span>
+                  <span class='label'>#JavaScript</span>
+                  <span class='label'>#Ruby</span>
+                  <span class='label'>#SEO</span>
                 </p>
               </div>
                     <div class='project'>
@@ -183,12 +185,14 @@ __END__
                 <li>
                   Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
                 </li>
+                <li>
+                  Integrated with CRM system pike13 using API and created single page point of sale to increase conversions for studio emails.  
+                </li>
                 </ul>
                 <p>
                   <span class='label'>#Rails</span>
                   <span class='label'>#Ruby</span>
-                  <span class='label'>#BalancedAPI</span>
-                  <span class='label'>#BalancedAPI</span>
+                  <span class='label'>#StripeAPI</span>
                   <span class='label'>#Javascript</span>
                 </p>
               </div>
@@ -331,14 +335,15 @@ __END__
                 </h1>
             </div>
             <ul>
+              <li>RubyConf 2015</li>
               <li>Waza 2013</li>
               <li>RubyConf 2012</li>
-              <li>RubyConf 2009</li>
-              <li>RubyConf 2010</li>
-              <li>Dreamforce 2010</li>
-              <li>JSConf 2009</li>
-              <li>JSConf 2010</li>
               <li>CanvasCon 2011</li>
+              <li>RubyConf 2010</li>
+              <li>JSConf 2010</li>
+              <li>Dreamforce 2010</li>
+              <li>RubyConf 2009</li>
+              <li>JSConf 2009</li>
             </ul>
 
             <div class='project'>
@@ -438,7 +443,7 @@ __END__
                   Continuously creating marketplace for charities and business owners to meet and support community causes. A minimum of 1% of revenue automatically given at point of sale and record kept as write off for the business owner
                 </li>
                 <li>
-                  Created events system for emailing tickets to customers of event creators along with link to modify donation rights for the purchase
+                  Integrated with CRM system pike13 using API and created single page point of sale to increase conversions for studio emails.  
                 </li>
                 </ul>
               </div>
